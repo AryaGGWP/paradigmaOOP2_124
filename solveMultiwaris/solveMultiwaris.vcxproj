@@ -24,6 +24,7 @@
     <ProjectGuid>{a492edba-90ae-4d2b-8c74-541c902572c7}</ProjectGuid>
     <RootNamespace>solveMultiwaris</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SolveMultiwaris</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
