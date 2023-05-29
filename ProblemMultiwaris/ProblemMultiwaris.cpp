@@ -8,7 +8,7 @@ public:
     orang(int pUmur):
         umur(pUmur)
     {
-        cout << "orang dibuat dengan umur" << umur << "\n" << endl;
+        cout << "orang dibuat dengan umur " << umur << "\n" << endl;
     }
 };
 
@@ -18,7 +18,7 @@ public:
     pekerja(int pUmur) :
         orang(pUmur)
     {
-        cout << "pekerja dibuat\n" << endl;
+        cout << "pekerja dibuat\n " << endl;
     }
 };
 
@@ -28,7 +28,7 @@ public:
     pelajar(int pUmur) :
         orang(pUmur)
     {
-        cout << "pelajar dibuat\n" << endl;
+        cout << "pelajar dibuat\n " << endl;
     }
 
 };
@@ -40,7 +40,7 @@ public:
         pekerja(pUmur),
         pelajar(pUmur)
     {
-        cout << "budi dibuat\n" << endl;
+        cout << "budi dibuat\n " << endl;
     }
 };
 
