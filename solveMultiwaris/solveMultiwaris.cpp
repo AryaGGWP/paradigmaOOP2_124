@@ -32,7 +32,15 @@ public:
 };
 
 class budi : public pekerja, public pelajar {
+public:
 
+    budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur),
+        orang(pUmur) //hal ini dapat dilakukan jika menggunakan virtual
+    {
+
+    }
 };
 
 int main()
