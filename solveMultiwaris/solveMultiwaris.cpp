@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class orang {
+class orang{
 public:
     int umur;
 
@@ -20,6 +20,18 @@ public:
         cout << "pekerja dibuat\n" << endl;
     }
 };
+
+class pelajar : virtual public orang {
+public:
+
+    pelajar(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "pelajar dibuat\n" << endl;
+    }
+};
+
+
 
 int main()
 {
